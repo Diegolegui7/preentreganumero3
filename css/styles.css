@@ -495,19 +495,46 @@ main {
   width: 280px; }
 
 #carrera1 {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/michaeljordanbulls.webp"); }
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/michaeljordanbulls.webp"); 
+  min-height: 100%;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: Josefin Slab, sans serif;
+}
 
 #carrera2 {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/magicjohnsonfoto.jpg"); }
+  background: linear-gradient(0deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url("../img/magicgancho.webp"); 
+  min-height: 100%;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: Josefin Slab, sans serif;
+  background-position: center;
+  
+}
 
 #carrera3 {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/lebronjames2.jpg"); }
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/lebronjames2.jpg");
+  min-height: 100%;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: Josefin Slab, sans serif;
+}
 
 #carrera4 {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/jabbar.jpg"); }
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/jabbar.jpg");
+  min-height: 100%;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: Josefin Slab, sans serif;
+}
 
 #carrera5 {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/kobe bryant.png"); }
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/kobefondo.jpg");
+  min-height: 100%;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: Josefin Slab, sans serif;
+}
 
 .footer {
   background-color: lightcoral;
