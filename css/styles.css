@@ -448,7 +448,8 @@ main {
 
 .main-infancia {
   display: grid;
-  grid-template-areas: "h3 img"; }
+  grid-template-areas: "h3 img"; 
+}
 
 .main-infancia h3 {
   grid-area: h3; }
@@ -490,8 +491,8 @@ main {
   top: 95%;
   left: 98%;
   transform: translate(-80%, -80%);
-  height: 250px;
-  width: 250px; }
+  height: 280px;
+  width: 280px; }
 
 #carrera1 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/michaeljordanbulls.webp"); }
@@ -554,9 +555,18 @@ main {
     margin: 0px; }
   .main-infancia {
     display: grid;
-    grid-template-areas: "h3" "img"; }
+    grid-template-areas: "img"
+     "h3"; }
+     .main-infancia h3 {
+      grid-area: h3; }
+    .main-infancia img {
+      grid-area: img;
+      margin: 30px;
+    
+    }
   .main-familia {
     display: grid;
-    grid-template-areas: "h3" "img"; }
+    grid-template-areas: "img"
+ "h3"; }
   .video {
     display: none; } }
