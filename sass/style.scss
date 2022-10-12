@@ -20,9 +20,8 @@
         column-gap: 20px;
         list-style:none;
         align-items: center;
-        .hbd-header-foto{
-            height: 100%;
-            width: auto;
+        .hbd-header-foto1{
+            height: 150px;
            }
         
     }
@@ -302,7 +301,7 @@
         }
     }
     
-    @media only screen and (max-width:575px){
+    @media (max-width:575px){
         *{margin: 0px;
             padding: 0px;}
     
@@ -322,7 +321,7 @@
         }
     
         .hbd-header-foto{
-            height: 0%;
+            display: none;
         }
         .div-inicio{
             display: flex;
@@ -466,12 +465,7 @@ header{
 }
 
 
-.container-fluid{
-    font-family: ui-sans-serif;
-    gap: 100px;
-    font-size: 20px;
-    margin: 5px;
-}
+
 .h1{
     font-size: 50px;
 }
@@ -567,23 +561,30 @@ main{
 #carrera1{
     @extend %efecto;
     background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("../img/michaeljordanbulls.webp"); 
+    background-position: center;
 }
 #carrera2{
     @extend %efecto;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("../img/magicjohnsonfoto.jpg"); 
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("../img/magicgancho.webp"); 
+    background-position: center;
 }
 #carrera3{
     @extend %efecto;
     background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("../img/lebronjames2.jpg");
+    background-position: right;
 }
 #carrera4{
     @extend %efecto;
     background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("../img/jabbar.jpg");
+    background-position: center;
 }
 #carrera5{
     @extend %efecto;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("../img/kobe\ bryant.png");
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("../img/kobefondo.jpg");
+    background-position: top;
+
 }
+
 
 .footer{
     background-color: lightcoral;
@@ -625,7 +626,7 @@ main{
     transition: 500ms;
     background-color: lightcoral;
 }
-@media only screen and (max-width:575px){
+@media (max-width:575px){
     .h1{
         display: none;
     }
