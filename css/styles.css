@@ -84,6 +84,11 @@ body {
   height: 100%;
   width: auto;
   margin-left: 10px; }
+.hbd-header-foto1 {
+    float: left;
+    height: 100%;
+    width: auto;
+    margin-left: 10px; }
 
 .hbd-h1 {
   text-decoration: underline;
@@ -291,20 +296,27 @@ body {
     padding: 0 px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px; }
+  .hbd-header{
+    justify-content: center;
+  }
   .hbd-header ul {
     height: 30%;
     margin-top: -100px; }
   .hbd-header ul li {
     text-align: center; }
   .hbd-header-foto {
-    height: 0%; }
+    display: none;}
+    
   .div-inicio {
     display: flex;
     flex-direction: column;
     margin-left: 0px; }
   .img-body {
     height: auto;
-    width: 100%; }
+    width: 100%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   .img-body:hover {
     height: auto;
     width: 100%; }
