@@ -301,7 +301,7 @@
         }
     }
     
-    @media (max-width:575px){
+    @media screen and (max-width:600px){
         *{margin: 0px;
             padding: 0px;}
     
@@ -626,7 +626,7 @@ main{
     transition: 500ms;
     background-color: lightcoral;
 }
-@media (max-width:575px){
+@media screen and (max-width:600px){
     .h1{
         display: none;
     }
