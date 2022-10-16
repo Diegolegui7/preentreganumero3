@@ -12,6 +12,10 @@
   margin-top: 20px;
   text-shadow: 4px 4px #001; }
 
+* {
+  margin: 0px;
+  padding: 0px; }
+
 body {
   color: black;
   background-color: #ededed;
