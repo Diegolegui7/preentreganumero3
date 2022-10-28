@@ -1,5 +1,6 @@
  @import "secundarios/variables";
  @import "secundarios/efecto";
+ @import "secundarios/mixin";
   
 
     body{color:$letra;
@@ -176,7 +177,6 @@
     }
     .img-body{
         @include sizes (500px,500px)
-        
     }
     .img-body2{
         @include sizes (500px,500px)
@@ -187,7 +187,7 @@
     }
     .img-body2:hover{
         transition: 1s;
-        @include sizes(700px,700px)
+        @include sizes (700px,700px)
     }
     
     
@@ -619,4 +619,115 @@ main{
         display: none;
     }
 
+}
+@media screen and (max-width:768px){
+    .hbd-header ul{
+        height: 30%;
+        margin-top: -100px;
+    }
+    .hbd-header ul li{
+        text-align: center;
+    }
+
+    .hbd-header-foto{
+        display: none;
+    }
+    .div-inicio{
+        display: flex;
+        flex-direction: column;
+        margin-left:0px;
+    }
+    .img-body{
+        height: auto;
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    .img-body:hover{
+        height: auto;
+        width: 100%;
+    }
+    .img-body2{
+        height: 0%;
+    }
+    .p{
+        display: flex;
+        align-items: center;
+    }
+    .div-parametros{
+        margin-bottom: 100px;
+    }
+    
+    .div-parametros{
+        display: grid;
+        grid-template-areas: 
+        "p";
+    }
+
+    .div-parametros img{
+        width: 0px;
+        height: 0px;
+    }
+    .div-parametros p{
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        font-size: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    
+    .top ol{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-position: center;
+        border-radius: 20px;
+    }
+    .img-cuidado:hover{
+        height: 50px;
+        width: 50px;
+    
+    }
+    .img-cuidado {
+      box-shadow: 0px 15px 15px 
+      rgba(0,0,0,0.50);
+    
+    }
+
+    .top{
+        margin-bottom: 100px;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+       }
+    .h1{
+        display: none;
+    }
+    .section ul{
+        margin: 0px;
+    }
+    .main-infancia img{
+       display: none;
+     }
+     .main-infancia{
+        justify-content: center;
+        align-items: center;
+     }
+   
+    .main-familia{
+            display: grid;
+            grid-template-areas: 
+            "h3"
+            "img"
+        }
+    .video{
+        display: none;
+    }
 }
